@@ -1,0 +1,3 @@
+<footer>
+    <!-- rellenar footer -->
+</footer>
