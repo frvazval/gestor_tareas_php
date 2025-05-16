@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Llamar a la conexión una vez
-require_once 'controlador/connection.php';
+require_once 'controlador/conexion.php';
 require_once 'traduccion_colores.php';
 
 // $_POST

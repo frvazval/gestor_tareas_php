@@ -7,7 +7,7 @@ if($_GET) {
 }
 
 // Llamar a la conexión una vez
-require_once 'controlador/connection.php';
+require_once 'controlador/conexion.php';
 
 // 1. Definir la sentencia preparada
 $delete = "DELETE FROM colores WHERE id_color = ?;";
