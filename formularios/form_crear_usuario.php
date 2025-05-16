@@ -1,5 +1,5 @@
 
-<form name="formNewUser">
+<form name="formNuevoUsuario">
 <fieldset>
 <h2>Creación de cuenta</h2>
 <div>

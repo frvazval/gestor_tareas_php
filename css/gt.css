@@ -36,7 +36,7 @@ h1 {
     margin-bottom: 15px;
     color: #007acc; /* Título en azul vibrante */
 }
-.task-form {
+.formTareas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,11 +44,16 @@ h1 {
     gap: 10px;
     margin-bottom: 20px;
 }
-.task-form label {
+.fromTareas p {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.formTareas label {
     font-size: 14px;
     font-weight: bold;
 }
-.task-form input, .task-form select, .task-form button {
+.formTareas input, .formTareas select, .formTareas button {
     padding: 8px;
     font-size: 14px;
     border-radius: 5px;
@@ -57,7 +62,7 @@ h1 {
     color: #005b99; /* Texto azul oscuro */
     display: block;
 }
-.task-form button {
+.formTareas button {
     background-color: #007acc; /* Botón azul vibrante */
     color: #ffffff; /* Texto blanco */
     cursor: pointer;
@@ -65,10 +70,10 @@ h1 {
     padding: 12px 16px; /* Aumentamos el padding */
     border-radius: 50px; /* Forma elíptica */
 }
-.task-form button:hover {
+.formTareas button:hover {
     background-color: #005b99; /* Botón azul más oscuro al pasar el cursor */
 }
-.task-form div {
+.formTareas div {
     display: flex;
     flex-direction: column;
     align-items: center;

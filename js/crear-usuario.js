@@ -1,18 +1,18 @@
 // Capturar el objeto formulario
-const formNewUser = document.forms['formNewUser']
+const formNuevoUsuario = document.forms['formNuevoUsuario']
 
-formNewUser.addEventListener('submit', (event) => {
+formNuevoUsuario.addEventListener('submit', (event) => {
     event.preventDefault();
     document.getElementById("errorUsuario").textContent = "";
     document.getElementById("errorPassword").textContent = "";
     document.getElementById("errorEmail").textContent = "";
 
-    let nombre = formNewUser['nombre'].value.trim()
+    let nombre = formNuevoUsuario['nombre'].value.trim()
     // Pendiente: Corregir el nombre
-    let password = formNewUser['password'].value.trim()
-    let password2 = formNewUser['password2'].value.trim()
-    let idioma = formNewUser['idioma'].value
-    let email = formNewUser['email'].value.trim()
+    let password = formNuevoUsuario['password'].value.trim()
+    let password2 = formNuevoUsuario['password2'].value.trim()
+    let idioma = formNuevoUsuario['idioma'].value
+    let email = formNuevoUsuario['email'].value.trim()
 
     // console.log(nombre, password, password2, idioma, email);
 
