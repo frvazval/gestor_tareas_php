@@ -17,12 +17,19 @@ body {
 }
 .container {
     width: 70%; /* Cambiamos el ancho al 70% de la pantalla */
-    max-width: none; /* Eliminamos el límite de ancho máximo */
-    padding: 50px; /* Mantener el padding aumentado */
+    max-width: none; /* Eliminamos el límite de ancho máximo */    
     margin: 0 auto;
-    background: #ffffff; /* Fondo blanco para el contenedor */
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+    background: rgba(255, 255, 255, 0.5); /* Blanco semitransparente */
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    /* Fondo blanco para el contenedor */
+    /* background: #ffffff; */
+    /* border-radius: 10px; */
+    /* Mantener el padding aumentado */
+    /* padding: 50px; */
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
 }
 h1 {
     font-size: 28px;
