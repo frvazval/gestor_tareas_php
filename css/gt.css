@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff; /* Fondo azul claro */
+    background-image: url('../img/escritorio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #333; /* Texto oscuro */
     text-align: center;
     margin: 0;
@@ -9,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .container {
     width: 70%; /* Cambiamos el ancho al 70% de la pantalla */
