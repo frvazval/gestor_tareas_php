@@ -1,6 +1,6 @@
 
-<form name="formReset">
-<fieldset>
+<form name="formReset" class="formTareas">
+<div class="container">
 <h2>Introduce tus datos</h2>
 <div>
     <label for="usuario">Introduce tu nombre o tu email:</label>
@@ -17,6 +17,6 @@
     
 </div>
 
-</fieldset>
+</div>
 
 </form>

@@ -1,6 +1,6 @@
 
-<form name="formNuevoUsuario">
-<fieldset>
+<form name="formNuevoUsuario" class="formTareas">
+<div class="container">
 <h2>Creación de cuenta</h2>
 <div>
     <label for="nombre">Nombre:</label>
@@ -42,7 +42,7 @@
   
 </div>
 
-</fieldset>
+</div>
 
 </form>
         </section>
