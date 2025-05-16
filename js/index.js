@@ -49,7 +49,7 @@ if (formLogin != 'No') {
         return
     }
 
-    // alert(`Usuario ${nombre} creado c {orrectamente`)
+    // alert(`Usuario ${nombre} creado correctamente`)
      window.location.href = "../index.php";
   }).catch(error => {
     console.log("Error: ", error);
