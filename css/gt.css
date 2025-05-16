@@ -136,6 +136,17 @@ h1 {
     border-top-right-radius: 20px; /* Redondeamos el lado derecho superior */
     border-bottom-right-radius: 20px; /* Redondeamos el lado derecho inferior */
 }
+
+#usuario {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+#password {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
 .expired {
     animation: blink 1s infinite; /* Parpadeo */
     color: red; /* Color rojo para el icono */
