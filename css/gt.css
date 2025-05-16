@@ -16,20 +16,15 @@ body {
     
 }
 .container {
-    width: 70%; /* Cambiamos el ancho al 70% de la pantalla */
-    max-width: none; /* Eliminamos el límite de ancho máximo */    
+    width: 900px; /* Cambiamos el ancho al 70% de la pantalla */
+    max-width: 100%; /* Eliminamos el límite de ancho máximo */    
     margin: 0 auto;
 
     background: rgba(255, 255, 255, 0.5); /* Blanco semitransparente */
     border-radius: 16px;
     padding: 32px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-    /* Fondo blanco para el contenedor */
-    /* background: #ffffff; */
-    /* border-radius: 10px; */
-    /* Mantener el padding aumentado */
-    /* padding: 50px; */
-    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+   
 }
 h1 {
     font-size: 28px;
@@ -156,6 +151,26 @@ h1 {
     animation: blink 1s infinite; /* Parpadeo */
     color: red; /* Color rojo para el icono */
     font-weight: bold;
+}
+
+.formTareas {
+    width: 480px; /* O el ancho que prefieras */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px; /* Espacio entre elementos */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+.formTareas label {
+    margin-right: 8px;
+    white-space: nowrap;
+}
+
+.formTareas input,
+.formTareas button {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 @keyframes blink {
