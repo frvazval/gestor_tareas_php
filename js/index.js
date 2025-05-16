@@ -50,7 +50,7 @@ if (formLogin != 'No') {
     }
 
     // alert(`Usuario ${nombre} creado c {orrectamente`)
-     window.location.href = "../colores.php";
+     window.location.href = "../index.php";
   }).catch(error => {
     console.log("Error: ", error);
   })
@@ -59,7 +59,7 @@ if (formLogin != 'No') {
 }
 
 // Capturar el objeto formulario 
-const formNewUser = document.forms['formNewUser'] || 'No';
+const formNewUser = document.forms['formNuevoUsuario'] || 'No';
 
 if (formNewUser != 'No') {
 
@@ -126,7 +126,7 @@ if (password !== password2) {
   .then(data => {
     console.log(data);
     // alert(`Usuario ${nombre} creado correctamente`)
-    window.location.href = "../colores.php";
+    window.location.href = "../index.php";
   }).catch(error => {
     console.log("Error: ", error);
   })

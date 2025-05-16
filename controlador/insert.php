@@ -2,12 +2,6 @@
 session_start();
 // Llamar a la conexión una vez
 require_once 'controlador/conexion.php';
-require_once 'traduccion_colores.php';
-
-// $_POST
-    // echo "<pre>";
-    // print_r ($_POST);
-    // echo "</pre>";
 
 $usuario = $_POST['usuario'];
 $usuario = htmlspecialchars($usuario, ENT_QUOTES, "UTF-8");
